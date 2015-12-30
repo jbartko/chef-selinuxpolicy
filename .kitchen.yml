@@ -6,15 +6,15 @@ provisioner:
   name: chef_zero
 
 platforms:
-  - name: centos-6.6-chef-11
+  - name: centos-6.7-chef-11
     driver:
-      box: opscode-centos-6.6
+      box: opscode-centos-6.7
       box_url: https://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.6_chef-provisionerless.box
     provisioner:
       require_chef_omnibus: 11.18.6
-  - name: centos-6.6-chef-latest
+  - name: centos-6.7-chef-latest
     driver:
-      box: opscode-centos-6.6
+      box: opscode-centos-6.7
       box_url: https://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.6_chef-provisionerless.box
     provisioner:
       require_chef_omnibus: latest
