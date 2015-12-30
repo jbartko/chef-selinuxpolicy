@@ -3,6 +3,10 @@ selinuxpolicy CHANGELOG
 
 This file is used to list changes made in each version of the selinuxpolicy cookbook.
 
+0.9.3
+-----
+- [backslasher] - Silenced not_if output of fcontext
+
 0.9.2
 -----
 - [backslasher] - Ignoring nonexisting files in restorecon
